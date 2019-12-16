@@ -1,6 +1,5 @@
 package Com.XueQiu.PO;
 
-import Com.XueQiu.TestCase.BasePage;
 import org.openqa.selenium.By;
 
 public class SearchPage extends BasePage {

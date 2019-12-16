@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b48d324f-6951-47f5-9fde-9bb58a271f41" name="Default Changelist" comment="" />
+    <list default="true" id="b48d324f-6951-47f5-9fde-9bb58a271f41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Com/XueQiu/PO/StockPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Com/XueQiu/TestCase/TestStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/XueQiu/PO/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/XueQiu/PO/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/XueQiu/TestCase/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/XueQiu/TestCase/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/XueQiu/TestCase/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/XueQiu/PO/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/XueQiu/TestCase/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/XueQiu/TestCase/TestSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/PO/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/PO/SearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/SampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/TestCase/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/TestCase/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/TestCase/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/TestCase/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/XueQiu/TestCase/TestSearch.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +29,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,10 +45,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1UPM3Fn9AtmazRhnVL9q0RuDC4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19503106" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Com.XueQiu.TestCase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,12 +72,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSearch.search">
+  <component name="RunManager" selected="JUnit.TestStock">
     <configuration name="SampleTest.sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="App自动化" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.XueQiu.TestCase.*" />
+          <option name="PATTERN" value="Com.XueQiu.PO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,7 +93,7 @@
       <module name="App自动化" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.XueQiu.TestCase.*" />
+          <option name="PATTERN" value="Com.XueQiu.PO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +108,7 @@
       <module name="App自动化" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.XueQiu.TestCase.*" />
+          <option name="PATTERN" value="Com.XueQiu.PO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,8 +120,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App自动化" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.XueQiu.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Com.XueQiu.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="Com.XueQiu.TestCase.TestStock" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStock.goStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App自动化" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.XueQiu.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Com.XueQiu.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="Com.XueQiu.TestCase.TestStock" />
+      <option name="METHOD_NAME" value="goStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStock" />
+        <item itemvalue="JUnit.TestStock.goStock" />
         <item itemvalue="JUnit.TestSearch.search" />
         <item itemvalue="JUnit.TestSearch" />
         <item itemvalue="JUnit.SampleTest.sampleTest" />
@@ -111,5 +173,18 @@
       <updated>1575253576249</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
